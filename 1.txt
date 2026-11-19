@@ -1,0 +1,34 @@
+configiration:
+git config --global user.name"Mayank123-lab55"
+git config --global user.email"xandar54321@gmail.com"
+mkdir program
+cd program
+git init
+
+1.echo "hello git" > file.txt
+git add . 
+git commit -m "changes"
+
+2.git checkout master
+git checkout -b feature-branch
+echo "hello git" > file.txt
+git add . 
+git commit -m "changes"
+git checkout master
+git merge feature-branch
+
+4. git clone link
+git remote -v
+cd repository name
+echo "hello git" > file.txt
+git add . 
+git commit -m "changes"
+git push
+
+
+3.
+
+
+
+
+
