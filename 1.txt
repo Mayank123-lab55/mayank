@@ -42,6 +42,17 @@ cat file.txt
 git add .
 
 
+5.git checkout master
+ls
+echo "This is modified file" >> file2.txt
+git add file2.txt
+git commit -m "modified files"
+git fetch origin
+git diff master origin/master
+git rebase origin/master
+git push origin master
+
+
 
 
 
