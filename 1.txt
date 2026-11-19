@@ -24,9 +24,26 @@ echo "hello git" > file.txt
 git add . 
 git commit -m "changes"
 git push
+USERNAME:GIT BUSERNAME
+PASSWORD : SETTING-->DEV-->CLASSIC TOKEN
+
+3.git checkout master
+git checkout -b feature-branch
+echo "hello git" > file.txt
+git add . 
+git commit -m "changes"
+git branch feature
+echo "new change" >> file.txt
+git add .
+git stash save "my changes"
+git checkout feature
+git stash apply
+cat file.txt
+git add .
 
 
-3.
+
+
 
 
 
